@@ -1,5 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Header } from '../Header/Header';
+
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
 import clsx from 'clsx';
 
@@ -10,8 +14,11 @@ import styles from './MainLayout.module.scss';
 
 const Component = ({className, children}) => (
   <div className={clsx(className, styles.root)}>
-    <h2>MainLayout</h2>
-    {children}
+    <Container maxWidth="lg">
+      <Typography component="div" />
+      <Header />
+      {children}
+    </Container>
   </div>
 );
 

@@ -1,26 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from '@material-ui/core/Link';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
-
-import clsx from 'clsx';
+import Button from 'react-bootstrap/Button';
 
 // import { connect } from 'react-redux';
 // import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
 
 import styles from './NotFound.module.scss';
 
-const Component = ({className, children}) => (
-  <div className={clsx(className, styles.root)}>
-    <Typography className={styles.root}>
-      <h2>Nothing to do here</h2>
-      <Button>
-        <Link href="/">
-          Go back to the homepage
-        </Link>
-      </Button>
-    </Typography>
+const Component = () => (
+  <div className={styles.root}>
+    <h2>Page Not Found</h2>
+    <Button variant="danger"href="/">
+          Back to the homepage
+    </Button>
   </div>
 );
 

@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+
 import clsx from 'clsx';
 
 // import { connect } from 'react-redux';
-// import { reduxSelector, reduxActionCreator } from '../../../redux/exampleRedux.js';
+// import { getAll, editPosts } from '../../../redux/postsRedux.js';
 
 import styles from './PostEdit.module.scss';
 

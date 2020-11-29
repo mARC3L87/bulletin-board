@@ -3,6 +3,7 @@ export const initialState = {
     data: [
       {
         id: '1',
+        status: 'published',
         title: 'Seat leon 2015',
         name: 'John',
         phone: '54655487',
@@ -15,6 +16,7 @@ export const initialState = {
       },
       {
         id: '2',
+        status: 'published',
         title: 'Merida bicycle',
         name: 'Jane',
         phone: '54655487',
@@ -27,6 +29,7 @@ export const initialState = {
       },
       {
         id: '3',
+        status: 'published',
         title: 'Broom',
         name: 'Mark',
         phone: '56482',

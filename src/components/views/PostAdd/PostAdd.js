@@ -35,7 +35,7 @@ handleChange = (event, name) => {
 
   this.setState({ post: { ...post, [name]: event.target.value } });
 };
-B
+
   handleSubmit = async (event) => {
     const { post } = this.state;
     const { addPost } = this.props;
